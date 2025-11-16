@@ -1,10 +1,4 @@
-# Welcome to your Lovable project
 
-## Project info
-
-**URL**: https://lovable.dev/projects/5025607f-cb44-444e-b54d-774e272cd1ee
-
-## How can I edit this code?
 
 ## 📋 Mục lục
 
