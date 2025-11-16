@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="ballGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="shine" cx="35%" cy="25%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main ball circle -->
+  <circle cx="50" cy="50" r="47" fill="url(#ballGradient)" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Central pentagon (black) -->
+  <path d="M 50 15 L 58 26 L 55 38 L 45 38 L 42 26 Z" fill="#000000"/>
+  
+  <!-- Hexagons around center - top -->
+  <path d="M 50 15 L 70 27 L 68 42 L 50 50 L 32 42 L 30 27 Z" fill="#000000" opacity="0.9"/>
+  
+  <!-- Hexagons - bottom -->
+  <path d="M 50 50 L 70 62 L 68 77 L 50 85 L 32 77 L 30 62 Z" fill="#000000" opacity="0.9"/>
+  
+  <!-- Left side hexagons -->
+  <path d="M 15 38 L 30 27 L 32 42 L 26 52 L 11 52 L 7 42 Z" fill="#000000" opacity="0.8"/>
+  <path d="M 15 62 L 30 51 L 32 66 L 26 76 L 11 76 L 7 66 Z" fill="#000000" opacity="0.8"/>
+  
+  <!-- Right side hexagons -->
+  <path d="M 85 38 L 93 42 L 89 52 L 74 52 L 68 42 L 70 27 Z" fill="#000000" opacity="0.8"/>
+  <path d="M 85 62 L 93 66 L 89 76 L 74 76 L 68 66 L 70 51 Z" fill="#000000" opacity="0.8"/>
+  
+  <!-- Shine/highlight effect -->
+  <ellipse cx="40" cy="30" rx="20" ry="14" fill="url(#shine)"/>
+</svg>
